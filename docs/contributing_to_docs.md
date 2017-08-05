@@ -17,17 +17,19 @@ documentation.
 
 # Documentation Objectives
 
-Our objectives for the LiveCode documentation can be categorised as
-- Completeness
-- Correctness
-- Instructiveness
+Our objectives for the LiveCode documentation may be summarized as being
+- Complete
+- Correct
+- Instructive
+- Concise
+- Well-written
 
-## Completeness
+## Complete
 
-In the context of the dictionary, completeness clearly entails the 
-documentation of all LiveCode syntax. The most basic form of 
-incompleteness is a completely missing dictionary entry. If you intend 
-to write a missing dictionary entry, please bear these documentation 
+The aim of providing complete documentation clearly entails  
+presenting all valid LiveCode syntax. Any LiveCode syntax missing from a dictionary entry
+fails to reveal the full capabilities of the language. If you intend 
+to add a dictionary entry heretofor missing, please keep these documentation 
 objectives in mind and consult the 
 [documentation format specification](guides/LiveCode Documentation Format Reference.md),
 
@@ -40,7 +42,7 @@ missing information in our current dictionary is as follows:
 `it` may be affected
 - Omitted description of the function of optional syntax elements
 
-## Correctness
+## Correct
 
 Correctness of documentation comes in two forms.
 
@@ -62,7 +64,7 @@ Furthermore, where possible, individual lines within the document should
 not exceed 72 characters in length. This makes it easier to read, and 
 review on GitHub.
 
-## Instructiveness
+## Instructive
 
 One major objective we have with our documentation is to improve our
 code examples. Where possible, the `Example:` elements of the docs 
@@ -117,6 +119,24 @@ end fibonacciNumber
   end repeat
 ...
 ```
+# Concise
+Much computer documentation seems to ignore the importance of being
+concise. As documentation is the doorway to using software completely
+and correctly, its writer(s) should strive to make the presentation
+of documentation lean and to the point. This will not only speed the
+learning of software but also will make it more pleasant, and when
+used as a reference, documentation it is more efficient if concise.
+
+# Well-written
+Although it may be difficult to define 'well-written', and even more 
+difficult to realize when writing, attention should be given to the
+norms of grammatical correctness, if only for the simple reason that
+this will encourage readers to quickly understand the writer(s) intent.
+The best writing is often built of short, easily-understood words, whose
+meaning is clear to any reader. Jargon and technospeak should be avoided
+inasmuch as possible, and technical explanations should be clear and to
+the point. Documentation should make few assumptions about the knowledge
+of the reader who will use it.
 
 ## Tags
 
